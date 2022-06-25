@@ -1,0 +1,68 @@
+body, #root{
+    background: #0F101C;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+
+.navbar_outer{
+    background: #161D31;
+}
+
+.navbar_container{
+    width: 90%;
+    margin:auto;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 0.5;
+
+}
+
+.left_navbar{
+    flex: 0.5;
+    align-items: center;
+
+}
+
+.website{
+    background: none;
+    border: 1px solid #00C88C;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.left_navbar{
+display: flex;
+justify-content: flex-start;
+}
+
+.website{
+    margin-right: 20px;
+}
+
+// dapp2 starts here
+
+.manual_addresses{
+    textarea{
+        width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+.boxes_landing{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.box{
+    background: #161D31;
+    width: 25%;
+    padding-left: 15px;
+}
+
+.main_body{
+    width: 90%;
+    margin:auto;
+}
+
+.heading{
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.green{
+    color: #00C88C;
+}
+
+.para_landing{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.box {
+    h2{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    }
+
+    p{
+        font-size: 26px;
+        margin-top: 0;
+
+    }
+}
+
